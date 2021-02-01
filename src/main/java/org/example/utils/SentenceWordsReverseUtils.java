@@ -17,8 +17,7 @@ public class SentenceWordsReverseUtils {
         for(int iCounter = sentenceStrings.length-1; iCounter >= 0; iCounter--){
             reverseStrings.add(sentenceStrings[iCounter]);
         }
-        System.out.println("Reverse sentence:" + reverseStrings.stream()
-                .collect(joining(" ")));
+        System.out.println("Reverse sentence:" + String.join(" ", reverseStrings));
 
     }
 }

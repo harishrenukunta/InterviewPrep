@@ -22,6 +22,9 @@ public class App
         //DuplicateCharsInStrUtils.mainDuplicateCharsInStr();
         //SentenceWordsReverseUtils.mainSentenceWordsReverse();
         //RemovingDuplicateUtils.mainRemoveDuplicateWords();
-        GCDUtils.mainGCDUtils();
+        //GCDUtils.mainGCDUtils();
+        //AnagramUtils.mainAnagramUtils();
+        //FirstNonDuplicateCharUtils.mainUtils();
+        MiddleElementUtils.mainUtils();
     }
 }
